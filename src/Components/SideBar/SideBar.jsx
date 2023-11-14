@@ -36,7 +36,7 @@ const SideBar = ({ open, handleOpen }) => {
             </div>
           </div>
           <Link
-            to="/home"
+            to="/"
             className={styles.sideItem}
             style={{
               cursor: "pointer",

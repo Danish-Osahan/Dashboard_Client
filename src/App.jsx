@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route Component={Home} path="/home" />
+        <Route Component={Home} path="/" />
         <Route Component={BarGraph} path="/barGraph" />
         <Route Component={Radar} path="/radarChart" />
       </Routes>
